@@ -11,11 +11,16 @@ Lianghao Xia is persueing his PhD degree in computer science at South China Univ
 
 ## Publications
 - [SIGIR'21] "Graph Meta Network for Multi-Behavior Recommendation"
+
 _International ACM SIGIR Conference on Research and Development in Information Retrieval_
+
 **L. Xia**, Y. Xu, C. Huang, P. Dai and L. Bo
 
+
 - [AAAI'21] "Knowledge- Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation"
- _AAAI Conference on Artificial Intelligence_
+
+_AAAI Conference on Artificial Intelligence_
+
 **L. Xia**, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo
 
 - [IJCAI'21] "Spatial-Temporal Sequential Hypergraph Network for Crime Prediction with Dynamic Multiplex Relation Learning"
