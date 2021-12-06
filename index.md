@@ -64,15 +64,15 @@ X. Zhang, C. Huang, Y. Yu, and **L. Xia**
 
 ## Education Background
 - _09/2017-12/2021_&emsp; **South China University of Technology**  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Department of Computer Science and Technology, PhD
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Department of Computer Science and Technology, PhD
 - _09/2013-06/2017_&emsp; **South China University of Technology**  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Computer Science and Technology (English-Taught Class), Bachelor
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Computer Science and Technology (English-Taught Class), Bachelor
 
 ## Work Experience
 - _09/2016-05/2017_&emsp; **Microsoft Research Asia**  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Innovation Engineering Group, Research Software Development Intern
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Innovation Engineering Group, Research Software Development Intern
 - _05/2016-09/2016_&emsp; **Tencent Wechat**  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Mini-Program Framework Development, Engineering Intern
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Mini-Program Framework Development, Engineering Intern
 
 ## Awards
 - _12/2021_&emsp; Nomination for He-Jingtang Innovation Prize (only 1 nomination from CS dept. each year)
