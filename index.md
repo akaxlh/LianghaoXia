@@ -75,7 +75,7 @@ X. Zhang, C. Huang, Y. Yu, and **L. Xia**
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Mini-Program Framework Development, Engineering Intern
 
 ## Awards
-- _12/2021_&emsp; Nomination for He-Jingtang Science & Innovation Prize (only 1 nomination from CS dept. each year)
+- _12/2021_&emsp; Nomination for He-Jingtang Innovation Prize (only 1 nomination from CS dept. each year)
 - _09/2021_&emsp; National Scholarship for PhD Candidates
 - _09/2021_&emsp; Presidential Scholarship of South China University of Technology
 - _11/2020_&emsp; China College Students' 'Internet Plus' Innovation Competition, Golden Prize
