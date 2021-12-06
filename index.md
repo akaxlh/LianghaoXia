@@ -63,12 +63,10 @@ _ACM International Conference on Information and Knowledge Management_
 X. Zhang, C. Huang, Y. Yu, and **L. Xia**
 
 ## Education Background
-\begin{align}
-- _09/2017-12/2021_&emsp; &**South China University of Technology**  
-&Department of Computer Science and Technology, PhD
-- _09/2013-06/2017_&emsp;  &**South China University of Technology**  
-&Computer Science and Technology (English-Taught Class), Bachelor
-\end{align}
+- _09/2017-12/2021_&emsp; **South China University of Technology**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;Department of Computer Science and Technology, PhD
+- _09/2013-06/2017_&emsp; **South China University of Technology**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&Computer Science and Technology (English-Taught Class), Bachelor
 
 ## Work Experience
 - _09/2016-05/2017_&emsp; **Microsoft Research Asia**  
