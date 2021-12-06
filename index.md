@@ -70,7 +70,7 @@ X. Zhang, C. Huang, Y. Yu, and **L. Xia**
 
 ## Work Experience
 - _09/2016-05/2017_&emsp; **Microsoft Research Asia**  
-<font color=#00000000>_09/2016-05/2017_&emsp; Innovation Engineering Group, Research Software Development Intern</font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp; Innovation Engineering Group, Research Software Development Intern</font>
 - _05/2016-09/2016_&emsp; **Tencent Wechat**  
 <font color=#00000000>_05/2016-09/2016_&emsp; Mini-Program Framework Development, Engineering Intern</font>
 
