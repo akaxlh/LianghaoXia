@@ -47,7 +47,13 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
   }
   .contact {
     color: white;
-    font-weight: 100;
+    font-weight: 200;
+    margin: 0;
+  }
+  .icon {
+    /*color: #4051b5;*/
+    font-weight: 1000;
+    font-size: 20px;
     margin: 0;
   }
   </style>
@@ -63,16 +69,18 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
         <header class="inner">
           <div class="left">
 <!--             <img src="https://github.com/akaxlh/LianghaoXia.github.io/blob/gh-pages/avatar.jpg?raw=true" width=160/> -->
-              <img src="./avatar.jpg" width=160/>
+              <img src="./avatar.jpg" width=180/>
           </div>
           &emsp;&emsp;
 
             <!-- <a id="forkme_banner" href="https://github.com/akaxlh/LianghaoXia.github.io">View on GitHub</a> -->
-          <div width=100>
+          <div width=100 style='margin-left:240px;'>
             <h1 id="project_title">Lianghao Xia</h1>
             <h3 class="contact">Postodoctoral Fellow</h3>
             <h3 class="contact">University of Hong Kong</h3>
-            <h3 class="contact">Email: aka_xia@foxmail.com</h3>
+            <h3 class="contact">Email:&nbsp;&nbsp;aka_xia@foxmail.com</h3>
+            <a href='https://github.com/akaxlh/' class='icon' style='margin-right:15px' target='_blank'>GitHub</a>
+            <a href='https://scholar.google.com/citations?user=fDDjoUEAAAAJ&hl=zh-CN&oi=ao' class='icon' target='_blank'>Google Scholar</a>
           </div>
         </header>
     </div>
@@ -81,11 +89,11 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
     <div id="main_content_wrap" class="outer" style="width: 100%; overflow: hidden;">
       <section id="main_content" class="inner">
         
-          <p>I will join <a href="https://sites.google.com/view/chaoh/group-join-us?authuser=0">Data Intelligence Lab@HKU</a> as a postdoctoral fellow,
-              under the supervision of <a href="https://sites.google.com/view/chaoh">Professor Chao Huang</a>.
-             I received my PhD degree in computer science at South China University of Technology,
-             where I published 13 research papers including 6 first-authored top-tier conference or journal papers.
-             I won He-Jingtang Innovation Prize in 2021, which was only awarded to two PhD students university-wide in SCUT.</p>
+          <p>I will join <a href="https://sites.google.com/view/chaoh/group-join-us?authuser=0">Data Intelligence Lab@HKU</a> as a postdoctoral fellow, under the supervision of <a href="https://sites.google.com/view/chaoh">Professor Chao Huang</a>.
+             My research is mainly focused on data mining using deep neural architectures, on which I have published 9 first-authored papers in top-tier conferences and journals.
+             I received my PhD degree in computer science at South China University of Technology (SCUT),
+             where I won He-Jingtang Innovation Prize in 2021. The prize is only awarded to two PhD students university-wide.
+          </p>
 
 <h2 id="research-interests">Research Interests</h2>
 <ul>
@@ -95,37 +103,97 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
   <li>Spatial-Temporal Data Mining, Urban Computing.</li>
 </ul>
 
+<!-- <h2 id="publications" style='margin-bottom:0; padding-bottom:0;'>Publications</h2> -->
 <h2 id="publications">Publications</h2>
+<!-- <h4 style='margin-top: 0'>First-Authored Papers</h4> -->
 <ul>
   <li>
-    <p>[SIGIR’21] “Graph Meta Network for Multi-Behavior Recommendation”<br>
-<em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-<strong>L. Xia</strong>, Y. Xu, C. Huang, P. Dai and L. Bo</p>
+    <p>[KDD’22] “Self-Augmented Hypergraph Transformer for Recommender Systems”<br>
+      <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
+      <strong>L. Xia</strong>, C. Huang and C. Zhang</p>
   </li>
   <li>
-    <p>[AAAI’21] “Knowledge- Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation”<br>
-<em>AAAI Conference on Artificial Intelligence</em><br>
-<strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo</p>
+    <p>[SIGIR’22] “Hypergraph Contrastive Colloborative Filtering”<br>
+      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, J. Zhao, D. Yin and J. Huang<br>
+      <a href='https://arxiv.org/pdf/2204.12200.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/HCCF' target='_blank'>[code]</a>
+    </p>
+  </li>
+  <li>
+    <p>[TKDE’22] “Multi-Behavior Sequential Recommendation with Temporal Graph Transformer”<br>
+      <em>IEEE Transactions on Data Engineering</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu and J. Pei<br>
+      <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9774907' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/TGT' target='_blank'>[code]</a>
+      <!-- <a href='https://scholar.googleusercontent.com/scholar.bib?q=info:p4PbnAU9gw8J:scholar.google.com/&output=citation&scisdr=CgXm7vjLEJvsig_7Gkc:AAGBfm0AAAAAYoj9AkfTwI_DaK-tV6I4F0oFRSW0FhJv&scisig=AAGBfm0AAAAAYoj9Ar8xFNMvUDJYgwXwyAZOzbY2HP2F&scisf=4&ct=citation&cd=-1&hl=zh-CN' target='_blank'>[bib]</a> -->
+    </p>
+  </li>
+  <li>
+    <p>[SIGIR’21] “Graph Meta Network for Multi-Behavior Recommendation”<br>
+      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
+      <strong>L. Xia</strong>, Y. Xu, C. Huang, P. Dai and L. Bo<br>
+      <a href='https://arxiv.org/pdf/2110.03969.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/MB-GMN' target='_blank'>[code]</a>
+    </p>
+  </li>
+  <li>
+    <p>[AAAI’21] “Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation”<br>
+      <em>AAAI Conference on Artificial Intelligence</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
+      <a href='https://arxiv.org/pdf/2110.04000.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/KHGT' target='_blank'>[code]</a>
+    </p>
   </li>
   <li>
     <p>[IJCAI’21] “Spatial-Temporal Sequential Hypergraph Network for Crime Prediction with Dynamic Multiplex Relation Learning”<br>
-<em>International Joint Conference on Artificial Intelligence</em><br>
-<strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, L. Bo, X. Zhang, T. Chen</p>
+      <em>International Joint Conference on Artificial Intelligence</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, L. Bo, X. Zhang, T. Chen<br>
+      <a href='https://arxiv.org/pdf/2201.02435.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/ST-SHN' target='_blank'>[code]</a>
+    </p>
   </li>
   <li>
     <p>[TOIS’21] “Collaborative Reflection-Augmented Autoencoder Network for Recommender Systems”<br>
-<em>ACM Transactions on Information Systems</em><br>
-<strong>L. Xia</strong>, C. Huang, Y. Xu, H. Xu, X. Li and W. Zhang</p>
+      <em>ACM Transactions on Information Systems</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, H. Xu, X. Li and W. Zhang<br>
+      <a href='https://arxiv.org/pdf/2201.03158.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/CRANet' target='_blank'>[code]</a>
+    </p>
   </li>
   <li>
     <p>[ICDE’21] “Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling”<br>
-<em>IEEE International Conference on Data Engineering</em><br>
-<strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo</p>
+      <em>IEEE International Conference on Data Engineering</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
+      <a href='https://arxiv.org/pdf/2201.02307.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/GNMR' target='_blank'>[code]</a>
+    </p>
   </li>
   <li>
     <p>[SIGIR’20] “Multiplex Behavioral Relation Learning for Recommendation via Memory Augmented Transformer Network”<br>
-<em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-<strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai and L. Bo</p>
+      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
+      <strong>L. Xia</strong>, C. Huang, Y. Xu, P. Dai and L. Bo<br>
+      <a href='https://arxiv.org/pdf/2110.04002.pdf' target='_blank'>[pdf]</a>
+      <a href='https://github.com/akaxlh/MATN' target='_blank'>[code]</a>
+    </p>
+  </li>
+<!-- </ul> -->
+<!-- <h4>Involved Papers</h4> -->
+<!-- <ul> -->
+  <li>
+    <p>[KDD’22] “Multi-Behavior Hypergraph-Enhanced Transformer for Next-Item Recommendation”<br>
+      <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
+      Y. Yang, C. Huang, <strong>L. Xia</strong>, Y. Liang, Y. Yu and C. Li</p>
+  </li>
+  <li>
+    <p>[SIGIR’22] “Knowledge Graph Contrastive Learning for Recommendation”<br>
+      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
+      Y. Yang, C. Huang, <strong>L. Xia</strong> and C. Li</p>
+  </li>
+  <li>
+    <p>[ICDE’22] “Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction”<br>
+      <em>IEEE International Conference on Data Engineering</em><br>
+      Z. Li, C. Huang, <strong>L. Xia</strong>, Y. Xu and J. Pei</p>
   </li>
   <li>
     <p>[WSDM’22] “Contrastive Meta Learning with Behavior Multiplicity for Recommendation”<br>
@@ -187,14 +255,15 @@ X. Zhang, C. Huang, Y. Yu, and <strong>L. Xia</strong></p>
   <li><em>09/2021</em>  Presidential Scholarship of SCUT</li>
   <li><em>11/2020</em>  China College Students’ ‘Internet Plus’ Innovation Competition, Golden Prize</li>
   <li><em>10/2017</em>  IEEExtreme Contest Top-100</li>
-  <li><em>10/2016</em>  “Hong-Ping-Chang-Qing” Scholarship</li>
+  <!-- <li><em>10/2016</em>  “Hong-Ping-Chang-Qing” Scholarship</li> -->
   <li><em>10/2016</em>  ACM-ICPC Asian Regional Contest, Copper Prize</li>
   <li><em>05/2016</em>  Guangdong Collegiate Programming Contest, Golden Prize</li>
   <li><em>10/2015</em>  ACM-ICPC Asian Regional Contest, Silver Prize</li>
 </ul>
 
-<h2 id="invited-talks--presentations">Invited Talks &amp; Presentations</h2>
+<h2 id="invited-talks--presentations">Academic Activities</h2>
 <ul>
+  <li>Program commitee member of KDD'2022</li>
   <li><em>12/2021</em>  Talk at Guangdong University of Technology</li>
   <li><em>11/2021</em>  Talk at College of Future Technology, South China University of Technology</li>
 </ul>
@@ -213,4 +282,4 @@ X. Zhang, C. Huang, Y. Yu, and <strong>L. Xia</strong></p>
     </div>
   
       </div>
-</body><div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 1980px; height: 1080px; z-index: -2147483648;"></div><div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(33, 33, 33); height: 2854px; width: 1556px;"></div><div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 2854px; width: 1556px;"></div></html>
+</body><div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 100%; height: 1080px; z-index: -2147483648;"></div><div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(33, 33, 33); height: 2854px; width: 100%;"></div><div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 2854px; width: 100%;"></div></html>
