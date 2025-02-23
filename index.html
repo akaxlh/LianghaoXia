@@ -39,14 +39,18 @@
 html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
  html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style><style id="cyebody">html.cye-enabled.cye-lm body{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyediv">html.cye-enabled.cye-lm div{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyetable">html.cye-enabled.cye-lm th{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}html.cye-enabled.cye-lm td{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}html.cye-enabled.cye-lm textarea{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style><style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#bddce4 !important;border-color:rgb(47, 55, 57) !important;background-image:none !important;}</style>
  <style>
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size:18px;
+  }
   .left {
     float: left;
-    margin-right: 60px;
+    margin-right: 30px;
     /* margin-top: 25px; */
     /*width: 200px;*/
   }
   .contact {
-    font-family:"Microsoft YaHei",微软雅黑;
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-size:22px;
     font-weight: 350;
@@ -56,7 +60,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
   }
   .icon {
     color: #4051b5;
-    font-family:"Microsoft YaHei",微软雅黑;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 600;
     font-size: 22px;
     margin: 0;
@@ -74,9 +78,18 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
     color: #4051b5;
   }
   h2 {
+    font-family: "Times New Roman", Times, serif;
     color: #4051b5;
     padding-top: 15px;
     padding-bottom: 5px;
+  }
+  h3 {
+    font-family: "Times New Roman", Times, serif;
+    /* color: #4051b5; */
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #4051b5 50%, transparent 100%) 1;
   }
   .award_paper {
     color: #4051b5;
@@ -87,12 +100,15 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
     font-size:36px;
     font-weight:400;
     text-shadow:#4051b5 0px 0px 1px;
-    margin-bottom:12px;
-    margin-top:60px;
-    font-family:"Microsoft YaHei",微软雅黑;
+    margin-bottom:10px;
+    margin-top:50px;
+    font-family:"Times New Roman", Times, serif;
   }
  </style>
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body style>
@@ -116,7 +132,16 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
             <!-- <h4 class="contact">Email:&nbsp;&nbsp;aka_xia@foxmail.com</h3> -->
             <u class="icon"><a href='https://github.com/akaxlh/' class='icon' style='margin-right:25px' target='_blank'>GitHub</a></u>
             <u class="icon"><a href='https://scholar.google.com/citations?user=fDDjoUEAAAAJ' class='icon' style='margin-right:25px' target='_blank'>Google Scholar</a></u>
-            <u class="icon"><a href='./CV_Lianghao_Xia.pdf' class='icon' target='_blank'>Personal CV</a></u>
+            <u class="icon"><a href='./CV_Lianghao_Xia.pdf' class='icon' target='_blank'>Personal CV</a></u><br>
+            <div style="font-weight: 500;margin-top:5px;">
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Foundation Models &nbsp;&nbsp;
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Graph Learning &nbsp;&nbsp;
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Recommendation Systems<br>
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Large Language Models &nbsp;&nbsp;
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Self-Supervised Learning &nbsp;&nbsp;
+                <i class="fa fa-bookmark" style="color: #4051b5"></i> Spatio-Temporal Modeling
+            </div>
+            </span>
           </div>
         </header>
     </div>
@@ -125,72 +150,63 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
     <div id="main_content_wrap" class="outer" style="width: 100%; overflow: hidden; background: white">
       <section id="main_content" class="inner">
         
-          <p style="margin-bottom:20px;text-align:justify;line-height:21px;font-size:15px;">I am currently a research assistant professor at the School of Computing and Data Science of HKU, collaborating with <a href="https://sites.google.com/view/chaoh" target="_blank">Professor Chao Huang</a>. I also work with <a href="https://scholar.google.com/citations?user=TwSParMAAAAJ" target="_blank">Professor Ben Kao</a>.
-          <!-- My research is mainly focused on graph-structured data mining using deep learning techniques, on which I have published 13 first-authored papers in top-tier conferences and journals. -->
-          My research works lie in data science, with a focus on applications ranging
-          from Information Retrieval, Robust and Efficient Graph Mining, User Behavior Modeling, AI for Urban Science, and Trustworthy AI.
+          <p style="margin-bottom:20px;text-align:justify;line-height:23px;font-size:18px;">I am currently a research assistant professor at the School of Computing and Data Science of HKU, collaborating with <a href="https://sites.google.com/view/chaoh" target="_blank">Professor Chao Huang</a>. I also work with <a href="https://scholar.google.com/citations?user=TwSParMAAAAJ" target="_blank">Professor Ben Kao</a>.
+            My research works focus on large language models and foundation models, graph learning, self-supervised learning, and their applications in recommendation systems and smart cities.
+          <!-- My research works lie in data science, with a focus on applications ranging
+          from Information Retrieval, Robust and Efficient Graph Mining, User Behavior Modeling, AI for Urban Science, and Trustworthy AI. -->
           I received my Ph.D. and Bachelor degrees in computer science at South China University of Technology (SCUT) adviced by <a href='https://scholar.google.com/citations?user=1hx5iwEAAAAJ' target="_blank">Professor Yong Xu</a>.
           </p>
 
-<h2 id="research-interests">Research Interests</h2>
+<!-- <h2 id="research-interests">Research Interests</h2>
 <ul>
   <li>Foundation Models, Large Language Models,</li>
   <li>Graph Learning, Self-Supervised Learning,</li>
   <li>Recommendation, Spatio-Temporal Modeling.</li>
-</ul>
+</ul> -->
 
+<h3>Hornors & Awards</h3>
+  <li><strong class="award_paper">Worlds's Top 2%  Scientists</strong> 2024 published by Stanford University.</li>
+  <li><strong class='award_paper'><a href="https://www.aminer.org/ai2000/search_rank?id=561db71a45cedb33980aaf57&searchValue=Lianghao%20Xia&yearLeft=2022&yearRight=2023">AI 2000 Most Influential Scholars (2022-2023)</a></strong> by Aminer in Data Mining and Information Retrieval:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class='award_paper'>Rank 4th</strong> (Citation-based), <strong class='award_paper'>Rank 7th</strong> (Contribution-based), <strong class='award_paper'>Rank 2nd</strong> (Rising-Star)</li>
+  <li><em>One</em> KDD 2024 <strong class='award_paper'>Most Influential Paper</strong> (Rank 10th / 559 Accepted Papers)</li>
+  <li><em>One</em> WWW 2024 <strong class='award_paper'>Most Influential Paper</strong> (Rank 1st / 405 Accepted Papers)</li>
+  <li><em>Three</em> WWW 2023 <strong class='award_paper'>Most Influential Papers</strong> (Rank 4th, 5th, 10th / 323 Accepted Papers)</li>
+  <li><em>One</em> SIGIR 2023 <strong class='award_paper'>Most Influential Paper</strong> (Rank 12th / 165 Accepted Papers)</li>
+  <li><em>Two</em> KDD 2023 <strong class='award_paper'>Most Influential Papers</strong> (Rank 10th, 11th / 497 Accepted Papers)</li>
+  <li><em>Two</em> SIGIR 2022 <strong class='award_paper'>Most Influential Papers</strong> (Rank 2nd, 3rd / 161 Accepted Papers)</li>
+  <li><em>One</em> SIGIR 2021 <strong class='award_paper'>Most Influential Paper</strong> (Rank 13th / 151 Accepted Papers)</li>
+  <li>ACM MM 2024 <strong class='award_paper'>Best Paper Nomination & Hornorable Mention Award</strong></li>
+  <li>WWW 2023 <strong class="award_paper">Best Paper Nomination & Spotlight Paper</strong></li>
+  <li>WSDM 2022 <strong class='award_paper'>Best Paper Nomination & Top-3 Most Cited Paper</strong></li>
+  <li>WSDM 2023 <strong class="award_paper">Top-1 Most Cited Paper</strong></li>
+  <li>ICLR 2023 <strong class='award_paper'>Spotlight Paper</strong> (Top 25%)</li>
 
-<h2 id="awards">News</h2>
-<ul>
-  <li>[10/2024] - We release <a class='award_paper' href='https://github.com/HKUDS/LightRAG'>LightRAG</a>, a simple and fast RAG system</li>
-  <li>[10/2024] - Our ACM MM paper <a class='award_paper' href='https://arxiv.org/pdf/2406.11781'>DiffMM</a> is recognized as <strong class="award_paper">Best Paper Nomination & Hornorable Mention Award</strong> of MM'2024</li>
-  <li>[10/2024] - Three papers are accepted by WSDM'2025</li>
-  <li>[10/2024] - Our work <a class="award_paper" href="https://arxiv.org/pdf/2403.01121">OpenGraph</a> on Graph Foundation Model is accepted by EMNLP'2024</li>
-  <li>[09/2024] - Listed in <strong class='award_paper'>World's Top 2% Scientists</strong> by Stanford University</li>
-  <li>[08/2024] - We release <a class='award_paper' href="https://arxiv.org/pdf/2408.10700">AnyGraph</a>, a graph foundation model in the wild</li>
-  <li>[08/2024] - Our work <a class='award_paper' href="https://arxiv.org/pdf/2403.00813">UrbanGPT</a> is accepted by KDD'2024, and is featured in <strong class='award_paper'>Most Influential Papers</strong> of KDD'2024 (<u>Rank 10th / 559</u>)</li>
-  <li>[06/2023] - Recognized as <a href="https://www.aminer.org/ai2000/search_rank?id=561db71a45cedb33980aaf57&searchValue=Lianghao%20Xia&yearLeft=2022&yearRight=2023">AI 2000 Most Influential Scholars (2022-2023)</a> by Aminer in <u>Data Mining (Rank 15th)</u> and <u>Information Retrieval (Rank 19th)</u></li>
-  <li>[05/2024] - Ou work <a href='https://arxiv.org/pdf/2310.15950'>RLMRec</a> on LLM-enhanced recommendation, is accepted by WWW'2024, and recognized as <strong class="award_paper">Most Influential Papers</strong> of WWW'2024 (<u>Rank 1st / 405</u>)</li>
-  <li>[06/2023] - We release <a href="https://github.com/HKUDS/SSLRec">SSLRec</a>, a useful programming library for self-supervised recommendation</li>
-  <li>[05/2023] - Our paper <a href="https://arxiv.org/pdf/2303.07797.pdf">AutoCF</a> on automated self-supervised recommendation, is selected as <strong class="award_paper">Spotlight Paper & Best Paper Nomination</strong> of WWW'2023 (<u>16 / 323</u>), and is recognized as <strong class="award_paper">Most Influential Papers</strong> of WWW'2023 (<u>Rank 10th / 365</u>)</li>
-  <!-- <li>[05/2023] - My first-authored paper <a href="https://arxiv.org/pdf/2110.03969.pdf">MB-GMN</a> is featured in the <strong class="award_paper">Most Influential Papers</strong> of SIGIR'2021 (<u>13 / 151</u>)</li> -->
-  <li>[04/2023] - Our ICLR paper <a href="https://arxiv.org/pdf/2302.08191.pdf">LightGCL</a> is selected as <strong class='award_paper'>Spotlight Paper</strong> of ICLR'2023 (<u>Top 25%</u>)</li>
-  <li>[07/2022] - Our SIGIR'2022 papers <a href="https://arxiv.org/pdf/2204.12200.pdf">HCCF</a> and <a href="https://arxiv.org/pdf/2205.00976.pdf">KGCL</a> on contrastive recommendation models, are featured in <strong class='award_paper'><a href="https://www.paperdigest.org/2023/04/most-influential-sigir-papers-2023-04/">Most Influential Papers</a></strong> of SIGIR'2022 (<u>Rank 3rd and 2nd / 161</u>)</li>
-  <!-- <li>[10/2022] - I participate in a tutorial on <a href="https://dl.acm.org/doi/abs/10.1145/3511808.3557506">Self-Supervised Learning for Recommendation</a> at CIKM'2022</li> -->
-  <li>[02/2022] - My co-authored paper <a href="https://arxiv.org/pdf/2202.08523.pdf">CML</a> is selected as <strong class='award_paper'>Best Paper Candidate</strong> of WSDM'2022</li>
-  <li>[12/2021] - I received the He-Jingtang Innovation Prize (<strong class='award_paper'>with only two winners throughout the university</strong>) and and graduate from SCUT in advance</li>
-  <li>[09/2021] - National Scholarship and Presidential Scholarship for Ph.D. Candidates</li>
-  <li>[07/2021] - Our work <a href="https://arxiv.org/pdf/2110.03969">MB-GMN</a> on multi-behavior recommendation is accepted by SIGIR'2021, and recognized as <strong class="award_paper">Most Influential Papers</strong> of SIGIR'2021 (<u>Rank 13th / 151</u>)</li>
-  <!-- <li>[11/2020] - China College Students' 'Internet Plus' Innovation Competition, <u>Golden Prize</u></li> -->
-  <!-- <li><em>10/2017</em>  IEEExtreme Contest Top-100</li> -->
-  <!-- <li><em>10/2016</em>  "Hong-Ping-Chang-Qing" Scholarship</li> -->
-  <!-- <li><em>10/2016</em>  ACM-ICPC Asian Regional Contest, Copper Prize</li> -->
-  <!-- <li>[05/2016] - Guangdong Collegiate Programming Contest, <u>Golden Prize</u></li>
-  <li>[10/2015] - ACM-ICPC Asian Regional Contest, <u>Silver Prize</u></li> -->
-</ul>
 
 <!-- <h2 id="publications" style='margin-bottom:0; padding-bottom:0;'>Publications</h2> -->
-<h2 id="publications">Selected Publications</h2>
-<p style="margin-bottom:20px;text-align:justify;line-height:21px;font-size:15px;">
+<h3 id="publications">Selected Publications</h3>
+<!-- <p style="margin-bottom:20px;text-align:justify;line-height:21px;font-size:15px;">
 I have published 15 first-authored papers in top-tier publication venues in different fields such as Information Retrieval (SIGIR, WWW, TOIS), Data Mining (KDD, WSDM, TKDE), Artificial Intelligence (ICLR, ICML, AAAI, IJCAI, TNNLS), and Database (ICDE). My publications gained some highly selective awards, including <strong class="award_paper">Eleven Most Influential Papers</strong>, <strong class="award_paper">Two Spotlight Papers</strong>, <strong class="award_paper">Two Most Cited Papers</strong>, and <strong class="award_paper">Three Best Paper Nominations</strong>.
 For a full list of my publications, please refer to my <u><strong><a href="https://scholar.google.com/citations?user=fDDjoUEAAAAJ" target="_blank">Google Scholar page</a></strong></u>.
+</p> -->
+<p style="font-weight:bold;font-size:20px">
+  <i class="fa fa-bell" style="color: #4051b5"></i> Google scholar citation  <strong class='award_paper'>4600+</strong>, with <strong class='award_paper'>2500+</strong> in 2024, h index <strong class='award_paper'>34</strong>, i-10 index <strong class='award_paper'>51</strong>
 </p>
-
 
 <ul>
 
-  <li>
+  <!-- <li>
     <p>[WSDM'25] "MixRec: Heterogeneous Graph Collaborative Filtering"<br>
     <em>ACM International Conference on Recommender Systems</em><br>
     <strong><u>L. Xia</u></strong>, M. Xie, Y. Xu and C. Huang<br>
     <a href='' target='_blank'>[pdf]</a>
     <a href='' target='_blank'>[code]</a>
     </p>
-  </li>
+  </li> -->
 
   <li>
-    <p>[EMNLP'24] "OpenGraph: Towards Open Graph Foundation Models"<br>
-    <em>Conference on Empirical Methods in Natural Language Processing</em><br>
+    <p><strong>[EMNLP'24]</strong> "OpenGraph: Towards Open Graph Foundation Models"<br>
+    Conference on Empirical Methods in Natural Language Processing<br>
+    <strong class="award_paper">One of the First Graph Foundation Models, GitHub Star 300+</strong><br>
     <strong><u>L. Xia</u></strong>, B. Kao, and C. Huang<br>
     <a href='https://arxiv.org/pdf/2403.01121' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/OpenGraph' target='_blank'>[code]</a>
@@ -198,20 +214,141 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li>
 
   <li>
-    <p>[KDD'24] "UrbanGPT: Spatio-Temporal Large Language Models"<br>
-    <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
+    <p><strong>[WWW'23]</strong> "Automated Self-Supervised Learning for Recommendation"<br>
+    ACM The Web Conference<br>
+    <strong class="award_paper">Spotlight Paper & Best Paper Nomination (16 / 323), Most Influential Papers of WWW'23 (Rank 10 / 323)</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, C.Z. Huang, K. Lin, T. Yu and B. Kao<br>
+    <a href='https://arxiv.org/pdf/2303.07797.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/AutoCF' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[WWW'23]</strong> "Graph-less Collaborative Filtering"<br>
+    ACM The Web Conference<br>
+    <strong class="award_paper">Top 10% Most-Cited Papers of WWW'2023</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, J. Shi and Y. Xu<br>
+    <a href='https://arxiv.org/pdf/2303.08537.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/SimRec' target='_blank'>[code]</a>
+    </p>
+  </li>
+  <li>
+    <p><strong>[ICDE'23]</strong> "Disentangled Graph Social Recommendation"<br>
+    IEEE International Conference on Data Engineering<br>
+    <strong class="award_paper">Top 8% Most-Cited Papers of ICDE'2023</strong><br>
+    <strong><u>L. Xia</u></strong>, Y. Shao, C. Huang, Y. Xu, H. Xu and J. Pei<br>
+    <a href='https://arxiv.org/pdf/2303.07810.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/DGNN' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[SIGIR'22]</strong> "Hypergraph Contrastive Collaborative Filtering"<br>
+    International ACM SIGIR Conference on Research and Development in Information Retrieval<br>
+    <strong class="award_paper">Most Influential Papers of SIGIR'22 (Rank 3 / 161), Citation 360+</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, J. Zhao, D. Yin and J. Huang<br>
+    <a href='https://arxiv.org/pdf/2204.12200.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/HCCF' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[KDD'22]</strong> "Self-Supervised Hypergraph Transformer for Recommender Systems"<br>
+    ACM SIGKDD Conference on Knowledge Discovery and Data Mining<br>
+    <strong class="award_paper">Top 7% Most-Cited Papers of KDD'2022, Citation 110+</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang and C. Zhang<br>
+    <a href='https://arxiv.org/pdf/2207.14338.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/SHT' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[TKDE'22]</strong> "Multi-Behavior Sequential Recommendation with Temporal Graph Transformer"<br>
+    IEEE Transactions on Data Engineering<br>
+    <strong class="award_paper">Top 13% Most-Cited Papers of TKDE'2022</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu and J. Pei<br>
+    <a href='https://arxiv.org/pdf/2206.02687.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/TGT' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[SIGIR'21]</strong> "Graph Meta Network for Multi-Behavior Recommendation"<br>
+    International ACM SIGIR Conference on Research and Development in Information Retrieval<br>
+    <strong class="award_paper">Most Influential Papers of SIGIR'21 (Rank 13 / 151), Citation 200+</strong><br>
+    <strong><u>L. Xia</u></strong>, Y. Xu, C. Huang, P. Dai and L. Bo<br>
+    <a href='https://arxiv.org/pdf/2110.03969.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/MB-GMN' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+
+  <li>
+    <p><strong>[AAAI'21]</strong> "Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation"<br>
+    AAAI Conference on Artificial Intelligence<br>
+    <strong class="award_paper">Top 6% Most-Cited Papers of AAAI'2021 (among 1692 Accepted Papers), Citation 210+</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
+    <a href='https://arxiv.org/pdf/2110.04000.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/KHGT' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[IJCAI'21]</strong> "Spatial-Temporal Sequential Hypergraph Network for Crime Prediction with Dynamic Multiplex Relation Learning"<br>
+    International Joint Conference on Artificial Intelligence<br>
+    <strong class="award_paper">Top 5% Most-Cited Papers of IJCAI'2021 (among 587 Accepted Papers)</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, L. Bo, X. Zhang, T. Chen<br>
+    <a href='https://arxiv.org/pdf/2201.02435.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/ST-SHN' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+  <li>
+    <p><strong>[ICDE'21]</strong> "Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling"<br>
+    IEEE International Conference on Data Engineering<br>
+    <strong class="award_paper">Top 6% Most-Cited Papers of ICDE'2021</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
+    <a href='https://arxiv.org/pdf/2201.02307.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/GNMR' target='_blank'>[code]</a>
+    </p>
+  </li>  
+
+  <li>
+    <p><strong>[SIGIR'20]</strong> "Multiplex Behavioral Relation Learning for Recommendation via Memory Augmented Transformer Network"<br>
+    International ACM SIGIR Conference on Research and Development in Information Retrieval<br>
+    <strong class="award_paper">Top 12% Most-Cited Papers of SIGIR'2020, Citation 120+</strong><br>
+    <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai and L. Bo<br>
+    <a href='https://arxiv.org/pdf/2110.04002.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/akaxlh/MATN' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+
+  <li>
+    <p><strong>[Under review]</strong> "LightRAG: Simple and Fast Retrieval-Augmented Generation"<br>
+    Z. Guo, <strong><u>L. Xia</u></strong>, Y. Yu, T. Ao, and C. Huang<br>
+    <strong class="award_paper">Receives over 12k GitHub Stars</strong><br>
+    <a href='https://arxiv.org/pdf/2410.05779' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/LightRAG' target='_blank'>[code]</a>
+    </p>
+  </li>
+
+
+  <li>
+    <p><strong>[KDD'24]</strong> "UrbanGPT: Spatio-Temporal Large Language Models"<br>
+    ACM SIGKDD Conference on Knowledge Discovery and Data Mining<br>
     Z. Li, <strong><u>L. Xia</u></strong>, J. Tang, Y. Xu, L. Xia, D. Yin, and C. Huang<br>
-    <strong class="award_paper"><em>Most Influential Papers of KDD'24 (Rank 10 / 559)</em></strong><br>
+    <strong class="award_paper">Most Influential Papers of KDD'24 (Rank 10 / 559)</strong><br>
     <a href='https://arxiv.org/pdf/2403.00813' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/UrbanGPT' target='_blank'>[code]</a>
     </p>
   </li>
 
   <li>
-    <p>[MM'24] "DiffMM: Multi-Modal Diffusion Model for Recommendation"<br>
-    <em>ACM International Conference on Multimedia</em><br>
+    <p><strong>[MM'24]</strong> "DiffMM: Multi-Modal Diffusion Model for Recommendation"<br>
+    ACM International Conference on Multimedia<br>
     Y. Jiang, <strong><u>L. Xia</u></strong>, W. Wei, D. Luo, K. Lin, and C. Huang<br>
-    <strong class="award_paper"><em>Best Paper Nomination & Hornorable Mention Award</em></strong><br>
+    <strong class="award_paper">Best Paper Nomination & Hornorable Mention Award</strong><br>
     <a href='https://arxiv.org/pdf/2406.11781' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/DiffMM' target='_blank'>[code]</a>
     </p>
@@ -220,10 +357,10 @@ For a full list of my publications, please refer to my <u><strong><a href="https
 
 
   <li>
-    <p>[WWW'24] "RLMRec: Representation Learning with Large Language Models for Recommendation"<br>
-    <em>ACM The Web Conference</em><br>
+    <p><strong>[WWW'24]</strong> "RLMRec: Representation Learning with Large Language Models for Recommendation"<br>
+    ACM The Web Conference<br>
     X. Ren, W. Wei, <strong><u>L. Xia</u></strong>, L. Su, S. Cheng, J. Wang, D. Yin and C. Huang<br>
-    <strong class="award_paper"><em>Most Influential Papers of WWW'24</em></strong><br>
+    <strong class="award_paper">Most Influential Papers of WWW'24 (Rank 1 / 405)</strong><br>
     <a href='https://arxiv.org/pdf/2310.15950.pdf' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/RLMRec' target='_blank'>[code]</a>
     </p>
@@ -257,52 +394,37 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li> -->
 
   <li>
-    <p>[WWW'23] "Automated Self-Supervised Learning for Recommendation"<br>
-      <em>ACM The Web Conference</em><br>
-      <strong class="award_paper"><em>Spotlight Paper & Best Paper Nomination (16 / 323), Most Influential Papers of WWW'23 (Rank 10 / 323)</em></strong><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, C.Z. Huang, K. Lin, T. Yu and B. Kao<br>
-      <a href='https://arxiv.org/pdf/2303.07797.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/HKUDS/AutoCF' target='_blank'>[code]</a>
+    <p><strong>[SIGIR'23]</strong> "Disentangled Contrastive Collaborative Filtering"<br>
+    International ACM SIGIR Conference on Research and Development in Information Retrieval<br>
+    X. Ren, <strong><u>L. Xia</u></strong>, J. Zhao, D. Yin and C. Huang<br>
+    <strong class="award_paper">Most Influential Papers of SIGIR'23 (Rank 12 / 165)</strong><br>
+    <a href='https://arxiv.org/pdf/2305.02759' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/DCCF' target='_blank'>[code]</a>
     </p>
   </li>
+
   <li>
-    <p>[WWW'23] "Graph-less Collaborative Filtering"<br>
-      <em>ACM The Web Conference</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, J. Shi and Y. Xu<br>
-      <a href='https://arxiv.org/pdf/2303.08537.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/HKUDS/SimRec' target='_blank'>[code]</a>
+    <p><strong>[WWW'23]</strong> "Multi-Modal Self-Supervised Learning for Recommendation"<br>
+    ACM The Web Conference<br>
+    W. Wei, C. Huang, <strong><u>L. Xia</u></strong> and C. Zhang<br>
+    <strong class="award_paper">Most Influential Papers of WWW'23 (Rank 4 / 323)</strong><br>
+    <a href='https://arxiv.org/pdf/2302.10632.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/HKUDS/MMSSL' target='_blank'>[code]</a>
     </p>
-  </li>
+</li>
   <li>
-    <p>[ICDE'23] "Disentangled Graph Social Recommendation"<br>
-      <em>IEEE International Conference on Data Engineering</em><br>
-      <strong><u>L. Xia</u></strong>, Y. Shao, C. Huang, Y. Xu, H. Xu and J. Pei<br>
-      <a href='https://arxiv.org/pdf/2303.07810.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/HKUDS/DGNN' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
-    <p>[WWW'23] "Debiased Contrastive Learning for Sequential Recommendation"<br>
-    <em>ACM The Web Conference</em><br>
+    <p><strong>[WWW'23]</strong> "Debiased Contrastive Learning for Sequential Recommendation"<br>
+    ACM The Web Conference<br>
     Y. Yang, C. Huang, <strong><u>L. Xia</u></strong>, C.Z. Huang, D. Luo and K. Lin<br>
-    <strong class="award_paper"><em>Most-Influential Papers of WWW'23 (Rank 5 / 323)</em></strong><br>
+    <strong class="award_paper">Most-Influential Papers of WWW'23 (Rank 5 / 323)</strong><br>
     <a href='https://arxiv.org/pdf/2303.11780.pdf' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/DCRec' target='_blank'>[code]</a>
     </p>
   </li>
   <li>
-      <p>[WWW'23] "Multi-Modal Self-Supervised Learning for Recommendation"<br>
-      <em>ACM The Web Conference</em><br>
-      W. Wei, C. Huang, <strong><u>L. Xia</u></strong> and C. Zhang<br>
-      <strong class="award_paper"><em>Most Influential Papers of WWW'23 (Rank 4 / 323)</em></strong><br>
-      <a href='https://arxiv.org/pdf/2302.10632.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/HKUDS/MMSSL' target='_blank'>[code]</a>
-      </p>
-  </li>
-  <li>
-      <p>[ICLR'23] "LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation"<br>
-      <em>International Conference on Learning Representations</em><br>
-      <strong class="award_paper"><em>Selected as Spotlight Paper (Top 25%)</em></strong><br>
+      <p><strong>[ICLR'23]</strong> "LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation"<br>
+      International Conference on Learning Representations<br>
+      <strong class="award_paper">Selected as Spotlight Paper (Top 25%)</strong><br>
       X. Cai, C. Huang, <strong><u>L. Xia</u></strong> and X. Ren<br>
       <a href='https://arxiv.org/pdf/2302.08191.pdf' target='_blank'>[pdf]</a>
       <a href='https://github.com/HKUDS/LightGCL' target='_blank'>[code]</a>
@@ -310,30 +432,30 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li>
 
   <li>
-    <p>[KDD'23] "Knowledge Graph Self-Supervised Rationalization for Recommendation"<br>
-    <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
+    <p><strong>[KDD'23]</strong> "Knowledge Graph Self-Supervised Rationalization for Recommendation"<br>
+    ACM SIGKDD Conference on Knowledge Discovery and Data Mining<br>
     Y. Yang, C. Huang, <strong><u>L. Xia</u></strong>, and C. Huang<br>
-    <strong class="award_paper"><em>Most Influential Papers of KDD'23 (Rank 11 / 497)</em></strong><br>
+    <strong class="award_paper">Most Influential Papers of KDD'23 (Rank 11 / 497)</strong><br>
     <a href='https://arxiv.org/pdf/2307.02759' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/KGRec' target='_blank'>[code]</a>
     </p>
   </li>
 
   <li>
-    <p>[KDD'23] "Adaptive Graph Contrastive Learning for Recommendation"<br>
-    <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
+    <p><strong>[KDD'23]</strong> "Adaptive Graph Contrastive Learning for Recommendation"<br>
+    ACM SIGKDD Conference on Knowledge Discovery and Data Mining<br>
     Y. Jiang, C. Huang, and <strong><u>L. Xia</u></strong><br>
-    <strong class="award_paper"><em>Most Influential Papers of KDD'23 (Rank 10 / 497)</em></strong><br>
+    <strong class="award_paper">Most Influential Papers of KDD'23 (Rank 10 / 497)</strong><br>
     <a href='https://arxiv.org/pdf/2305.10837' target='_blank'>[pdf]</a>
     <a href='https://github.com/HKUDS/AdaGCL' target='_blank'>[code]</a>
     </p>
   </li>
 
   <li>
-      <p>[WSDM'23] "Heterogeneous Graph Contrastive Learning for Recommendation"<br>
-      <em>ACM International Conference on Web Search and Data Mining</em><br>
+      <p><strong>[WSDM'23]</strong> "Heterogeneous Graph Contrastive Learning for Recommendation"<br>
+      ACM International Conference on Web Search and Data Mining<br>
       M. Chen, C. Huang, <strong><u>L. Xia</u></strong>, W. Wei, Y. Xu and R. Luo<br>
-      <strong class="award_paper"><em>Most Cited Paper of WSDM'23 (Rank 1 / 123)</em></strong><br>
+      <strong class="award_paper">Most Cited Paper of WSDM'23 (Rank 1 / 123)</em></strong><br>
       <a href='https://arxiv.org/pdf/2303.00995.pdf' target='_blank'>[pdf]</a>
       <a href='https://github.com/HKUDS/HGCL' target='_blank'>[code]</a>
       </p>
@@ -346,106 +468,40 @@ For a full list of my publications, please refer to my <u><strong><a href="https
       <a href='https://github.com/HKUDS/STAG' target='_blank'>[code]</a>
     </p>
   </li> -->
-  <li>
-    <p>[SIGIR'22] "Hypergraph Contrastive Collaborative Filtering"<br>
-      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-      <strong class="award_paper"><em><a href='https://www.paperdigest.org/2023/04/most-influential-sigir-papers-2023-04/' target='_blank'>Most Influential Papers of SIGIR'22 (Rank 3 / 161)</a></em></strong><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, J. Zhao, D. Yin and J. Huang<br>
-      <a href='https://arxiv.org/pdf/2204.12200.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/HCCF' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
-    <p>[KDD'22] "Self-Supervised Hypergraph Transformer for Recommender Systems"<br>
-      <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang and C. Zhang<br>
-      <a href='https://arxiv.org/pdf/2207.14338.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/SHT' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
+  <!-- <li>
     <p>[TNNLS'22] "Multi-Behavior Graph Neural Networks for Recommender System"<br>
       <em>IEEE Transactions on Neural Networks and Learning Systems</em><br>
       <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai and L. Bo<br>
       <a href='https://arxiv.org/pdf/2302.08678.pdf' target='_blank'>[pdf]</a>
       <a href='https://github.com/akaxlh/MBGNN' target='_blank'>[code]</a>
     </p>
-  </li>
+  </li> -->
   <li>
-    <p>[TKDE'22] "Multi-Behavior Sequential Recommendation with Temporal Graph Transformer"<br>
-      <em>IEEE Transactions on Data Engineering</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu and J. Pei<br>
-      <a href='https://arxiv.org/pdf/2206.02687.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/TGT' target='_blank'>[code]</a>
+    <p><strong>[SIGIR'22]</strong> "Knowledge Graph Contrastive Learning for Recommendation"<br>
+    International ACM SIGIR Conference on Research and Development in Information Retrieval<br>
+    <strong class="award_paper"><a href='https://www.paperdigest.org/2023/04/most-influential-sigir-papers-2023-04/' target='_blank'>Most Influential Papers of SIGIR'22 (Ranked 2 / 161)</a></strong><br>
+    Y. Yang, C. Huang, <strong><u>L. Xia</u></strong> and C. Li<br>
+    <a href="https://arxiv.org/pdf/2205.00976.pdf" target="_blank">[pdf]</a>
+    <a href='https://github.com/yuh-yang/KGCL-SIGIR22' target='_blank'>[code]</a>
     </p>
   </li>
   <li>
-    <p>[SIGIR'22] "Knowledge Graph Contrastive Learning for Recommendation"<br>
-      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-      <strong class="award_paper"><em><a href='https://www.paperdigest.org/2023/04/most-influential-sigir-papers-2023-04/' target='_blank'>Most Influential Papers of SIGIR'22 (Ranked 2 / 161)</a></em></strong><br>
-      Y. Yang, C. Huang, <strong><u>L. Xia</u></strong> and C. Li<br>
-      <a href="https://arxiv.org/pdf/2205.00976.pdf" target="_blank">[pdf]</a>
-      <a href='https://github.com/yuh-yang/KGCL-SIGIR22' target='_blank'>[code]</a>
+    <p><strong>[WSDM'22]</strong> "Contrastive Meta Learning with Behavior Multiplicity for Recommendation"<br>
+    ACM International Conference on Web Search and Data Mining<br>
+    <strong class="award_paper">Best Paper Nomination & Most Cited Papers of WSDM'22 (Rank 3 / 159)</strong><br>
+    W. Wei, C. Huang, <strong><u>L. Xia</u></strong>, Y. Xu, J. Zhao, D. Yin<br>
+    <a href='https://arxiv.org/pdf/2202.08523.pdf' target='_blank'>[pdf]</a>
+    <a href='https://github.com/weiwei1206/CML' target='_blank'>[code]</a>
     </p>
   </li>
-  <li>
-    <p>[WSDM'22] "Contrastive Meta Learning with Behavior Multiplicity for Recommendation"<br>
-      <em>ACM International Conference on Web Search and Data Mining</em><br>
-      <strong class="award_paper"><em>Best Paper Nomination & Most Cited Papers of WSDM'22 (Rank 3 / 159)</em></strong><br>
-      W. Wei, C. Huang, <strong><u>L. Xia</u></strong>, Y. Xu, J. Zhao, D. Yin<br>
-      <a href='https://arxiv.org/pdf/2202.08523.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/weiwei1206/CML' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
-    <p>[SIGIR'21] "Graph Meta Network for Multi-Behavior Recommendation"<br>
-      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-      <strong class="award_paper"><em>Most Influential Papers of SIGIR'21 (Rank 13 / 151)</em></strong><br>
-      <strong><u>L. Xia</u></strong>, Y. Xu, C. Huang, P. Dai and L. Bo<br>
-      <a href='https://arxiv.org/pdf/2110.03969.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/MB-GMN' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
-    <p>[AAAI'21] "Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation"<br>
-      <em>AAAI Conference on Artificial Intelligence</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
-      <a href='https://arxiv.org/pdf/2110.04000.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/KHGT' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
+  <!-- <li>
     <p>[TOIS'21] "Collaborative Reflection-Augmented Autoencoder Network for Recommender Systems"<br>
       <em>ACM Transactions on Information Systems</em><br>
       <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, H. Xu, X. Li and W. Zhang<br>
       <a href='https://arxiv.org/pdf/2201.03158.pdf' target='_blank'>[pdf]</a>
       <a href='https://github.com/akaxlh/CRANet' target='_blank'>[code]</a>
     </p>
-  </li>
-  <li>
-    <p>[ICDE'21] "Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling"<br>
-      <em>IEEE International Conference on Data Engineering</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, M. Lu and L. Bo<br>
-      <a href='https://arxiv.org/pdf/2201.02307.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/GNMR' target='_blank'>[code]</a>
-    </p>
-  </li>  
-  <li>
-    <p>[IJCAI'21] "Spatial-Temporal Sequential Hypergraph Network for Crime Prediction with Dynamic Multiplex Relation Learning"<br>
-      <em>International Joint Conference on Artificial Intelligence</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai, L. Bo, X. Zhang, T. Chen<br>
-      <a href='https://arxiv.org/pdf/2201.02435.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/ST-SHN' target='_blank'>[code]</a>
-    </p>
-  </li>
-  <li>
-    <p>[SIGIR'20] "Multiplex Behavioral Relation Learning for Recommendation via Memory Augmented Transformer Network"<br>
-      <em>International ACM SIGIR Conference on Research and Development in Information Retrieval</em><br>
-      <strong><u>L. Xia</u></strong>, C. Huang, Y. Xu, P. Dai and L. Bo<br>
-      <a href='https://arxiv.org/pdf/2110.04002.pdf' target='_blank'>[pdf]</a>
-      <a href='https://github.com/akaxlh/MATN' target='_blank'>[code]</a>
-    </p>
-  </li>
+  </li> -->
 </ul>
 <!-- 
 <ul>
@@ -575,7 +631,7 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li>
 </ul> -->
 
-<h2 id="education-background">Education Background</h2>
+<h3 id="education-background">Education Background</h3>
 <ul>
   <li>
     <div class='content_wrapper'><strong>South China University of Technology</strong><div class='time_wrapper'><em>09/2017-12/2021</em></div></div>
@@ -587,7 +643,7 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li>
 </ul>
 
-<h2 id="work-experience">Work Experience</h2>
+<h3 id="work-experience">Work Experience</h3>
 <ul>
   <li>
     <div class='content_wrapper'><strong>The University of Hong Kong</strong><div class='time_wrapper'><em>11/2024-Present</em></div></div>
@@ -607,7 +663,7 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   </li> -->
 </ul>
 
-<h2 id="invited-talks--presentations">Services</h2>
+<h3 id="invited-talks--presentations">Services</h3>
 <strong>Program Commitee Member of Conferences:</strong>
 <ul>
   <li>In year 2024: <em>SIGIR, KDD, WWW, AAAI, NeurIPS, ICLR, CIKM, SDM</em></li>
@@ -629,16 +685,11 @@ For a full list of my publications, please refer to my <u><strong><a href="https
   <li><em>Data Mining and Knowledge Discovery</em></li> -->
 </ul>
 
-<h2>Presentations</h2>
+<h3>Presentations</h3>
 <ul>
   <li><em>08/2024</em>  Tutorial on <em>Large Language Models for Graphs</em> at KDD'2024</li>
   <li><em>05/2024</em>  Tutorial on <em>Large Language Models for Graphs</em> at WWW'2024</li>
-  <li><em>05/2023</em>  <em>Spotlight Paper</em> presentation at WWW'2023</li>
-  <li><em>05/2023</em>  Talk at Hunan University</li><!--, online-->
-  <li><em>12/2022</em>  Talk at Institute of Computing Technology, Chinese Academy of Sciences</li><!--, online-->
   <li><em>10/2022</em>  Tutorial on <em>Self-Supervised Learning for Recommendation</em> at CIKM'2022</li><!--, online-->
-  <li><em>12/2021</em>  Talk at Guangdong University of Technology</li><!--, Guangzhou-->
-  <li><em>11/2021</em>  Talk at College of Future Technology, SCUT</li><!--, Guangzhou-->
   <li>Research paper presentations at international conferences:<br> <em>SIGIR'2023, WWW'2023, ICDE'2023, CIKM'2023, SIGIR'2022, SIGIR'2021, ICDE'2021, SIGIR'2020</em></li>
 </ul>
 <!-- <ul>
@@ -657,21 +708,7 @@ For a full list of my publications, please refer to my <u><strong><a href="https
 </ul> -->
 
 
-<h2>Hornors & Awards</h2>
-  <li><strong class="award_paper">Worlds's Top 2%  Scientists</strong> 2024 published by Stanford University.</li>
-  <li><strong class='award_paper'><a href="https://www.aminer.org/ai2000/search_rank?id=561db71a45cedb33980aaf57&searchValue=Lianghao%20Xia&yearLeft=2022&yearRight=2023">AI 2000 Most Influential Scholars (2022-2023)</a></strong> by Aminer in Data Mining and Information Retrieval.</li>
-  <li>One KDD 2024 <strong class='award_paper'>Most Influential Paper</strong> (Rank 10th / 559 Accepted Papers)</li>
-  <li>One WWW 2024 <strong class='award_paper'>Most Influential Paper</strong> (Rank 1st / 405 Accepted Papers)</li>
-  <li>Three WWW 2023 <strong class='award_paper'>Most Influential Papers</strong> (Rank 4th, 5th, 10th / 323 Accepted Papers)</li>
-  <li>One SIGIR 2023 <strong class='award_paper'>Most Influential Paper</strong> (Rank 12th / 165 Accepted Papers)</li>
-  <li>Two KDD 2023 <strong class='award_paper'>Most Influential Papers</strong> (Rank 10th, 11th / 497 Accepted Papers)</li>
-  <li>Two SIGIR 2022 <strong class='award_paper'>Most Influential Papers</strong> (Rank 2nd, 3rd / 161 Accepted Papers)</li>
-  <li>One SIGIR 2021 <strong class='award_paper'>Most Influential Paper</strong> (Rank 13th / 151 Accepted Papers)</li>
-  <li>ACM MM 2024 <strong class='award_paper'>Best Paper Nomination & Hornorable Mention Award</strong></li>
-  <li>WWW 2023 <strong class="award_paper">Best Paper Nomination & Spotlight Paper</strong></li>
-  <li>WSDM 2022 <strong class='award_paper'>Best Paper Nomination & Top-3 Most Cited Paper</strong></li>
-  <li>WSDM 2023 <strong class="award_paper">Top-1 Most Cited Paper</strong></li>
-  <li>ICLR 2023 <strong class='award_paper'>Spotlight Paper</strong> (Top 25%)</li>
+
   
 
   <html><!-- 
